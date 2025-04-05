@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: ChatTop
+  datasource:
+    url: jdbc:mysql://localhost:3306/ChatTop
+    username: root
+    password: rootam
+  jpa:
+    hibernate:
+      ddl-auto: none

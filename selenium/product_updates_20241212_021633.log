@@ -1,0 +1,283 @@
+2024-12-12 02:16:33,419 - INFO - 
+Processing Apple iPhone 15 Dual
+2024-12-12 02:16:35,670 - INFO - Created variable product: Apple iPhone 15 Dual
+2024-12-12 02:16:37,883 - INFO - Created variation for SKU: 1028-130389-21109
+2024-12-12 02:16:40,150 - INFO - Created variation for SKU: 1028-130393-21110
+2024-12-12 02:16:42,183 - INFO - Created variation for SKU: 1028-130393-20719
+2024-12-12 02:16:44,638 - INFO - Created variation for SKU: 1028-130391-21112
+2024-12-12 02:16:44,639 - INFO - 
+Processing Apple iPhone 15 Pro
+2024-12-12 02:16:44,640 - INFO - 
+Processing Motorola Edge 50 Neo Dual
+2024-12-12 02:16:44,640 - INFO - 
+Processing Motorola Edge 50 Pro Dual
+2024-12-12 02:16:44,641 - INFO - 
+Processing Motorola Moto G85 Dual
+2024-12-12 02:16:44,641 - INFO - 
+Processing Samsung A057G-DSN Galaxy A05s
+2024-12-12 02:16:46,899 - INFO - Created variable product: Samsung A057G-DSN Galaxy A05s
+2024-12-12 02:16:48,853 - INFO - Created variation for SKU: 1009-130788
+2024-12-12 02:16:51,154 - INFO - Created variation for SKU: 1009-131194
+2024-12-12 02:16:53,496 - INFO - Created variation for SKU: 1009-130787
+2024-12-12 02:16:55,651 - INFO - Created variation for SKU: 1009-131282
+2024-12-12 02:16:57,891 - INFO - Created variation for SKU: 1009-130896
+2024-12-12 02:17:00,002 - INFO - Created variation for SKU: 1009-130786
+2024-12-12 02:17:00,002 - INFO - 
+Processing Samsung A165F-DSB Galaxy A16
+2024-12-12 02:17:02,245 - INFO - Created variable product: Samsung A165F-DSB Galaxy A16
+2024-12-12 02:17:04,547 - INFO - Created variation for SKU: 1009-131632
+2024-12-12 02:17:06,881 - INFO - Created variation for SKU: 1009-131642
+2024-12-12 02:17:06,881 - INFO - 
+Processing Samsung A166B-DS Galaxy A16
+2024-12-12 02:17:09,093 - INFO - Created variable product: Samsung A166B-DS Galaxy A16
+2024-12-12 02:17:11,306 - INFO - Created variation for SKU: 1009-131566
+2024-12-12 02:17:13,518 - INFO - Created variation for SKU: 1009-131565
+2024-12-12 02:17:15,853 - INFO - Created variation for SKU: 1009-131564
+2024-12-12 02:17:15,853 - INFO - 
+Processing Samsung A256B-DSN Galaxy A25
+2024-12-12 02:17:15,854 - INFO - 
+Processing Samsung A356B-DS Galaxy A35
+2024-12-12 02:17:18,065 - INFO - Created variable product: Samsung A356B-DS Galaxy A35
+2024-12-12 02:17:20,153 - INFO - Created variation for SKU: 1009-131028
+2024-12-12 02:17:22,354 - INFO - Created variation for SKU: 1009-131036
+2024-12-12 02:17:24,335 - INFO - Created variation for SKU: 1009-131024
+2024-12-12 02:17:24,335 - INFO - 
+Processing Samsung A556B-DS Galaxy A55
+2024-12-12 02:17:26,544 - INFO - Created variable product: Samsung A556B-DS Galaxy A55
+2024-12-12 02:17:28,496 - INFO - Created variation for SKU: 1009-131025
+2024-12-12 02:17:30,718 - INFO - Created variation for SKU: 1009-131026
+2024-12-12 02:17:33,180 - INFO - Created variation for SKU: 1009-131004
+2024-12-12 02:17:33,180 - INFO - 
+Processing Samsung S921B-DS Galaxy S24
+2024-12-12 02:17:35,636 - INFO - Created variable product: Samsung S921B-DS Galaxy S24
+2024-12-12 02:17:38,093 - INFO - Created variation for SKU: 1009-130871
+2024-12-12 02:17:40,083 - INFO - Created variation for SKU: 1009-130867
+2024-12-12 02:17:40,083 - INFO - 
+Processing Samsung S926B-DS Galaxy S24
+2024-12-12 02:17:40,084 - INFO - 
+Processing Samsung S928B-DS Galaxy S24
+2024-12-12 02:17:42,026 - INFO - Created variable product: Samsung S928B-DS Galaxy S24
+2024-12-12 02:17:43,996 - INFO - Created variation for SKU: 1009-130873
+2024-12-12 02:17:45,973 - INFO - Created variation for SKU: 1009-130937
+2024-12-12 02:17:48,046 - INFO - Created variation for SKU: 1009-130875
+2024-12-12 02:17:48,046 - INFO - 
+Processing Ulefone Armor 20WT Dual
+2024-12-12 02:17:48,047 - INFO - 
+Processing Ulefone Armor 21 Dual
+2024-12-12 02:17:48,047 - INFO - 
+Processing Ulefone Armor 22 Dual
+2024-12-12 02:17:50,009 - INFO - Created variable product: Ulefone Armor 22 Dual
+2024-12-12 02:17:52,011 - INFO - Created variation for SKU: 1042-130409-20525
+2024-12-12 02:17:54,436 - INFO - Created variation for SKU: 1042-130411-20524
+2024-12-12 02:17:56,650 - INFO - Created variation for SKU: 1042-130408-20528
+2024-12-12 02:17:58,752 - INFO - Created variation for SKU: 1042-130410-20529
+2024-12-12 02:17:58,753 - INFO - 
+Processing Ulefone Armor 23 Ultra Dual
+2024-12-12 02:17:58,753 - INFO - 
+Processing Ulefone Armor 24 Dual
+2024-12-12 02:17:58,754 - INFO - 
+Processing Ulefone Armor 25T Dual
+2024-12-12 02:17:58,754 - INFO - 
+Processing Ulefone Armor 25T Pro Dual
+2024-12-12 02:17:58,755 - INFO - 
+Processing Ulefone Armor 26 Ultra Dual
+2024-12-12 02:17:58,755 - INFO - 
+Processing Ulefone Armor 27 Dual
+2024-12-12 02:17:58,756 - INFO - 
+Processing Ulefone Armor 27 Pro Dual
+2024-12-12 02:17:58,756 - INFO - 
+Processing Ulefone Armor 27T Dual
+2024-12-12 02:17:58,756 - INFO - 
+Processing Ulefone Armor 27T Pro Dual
+2024-12-12 02:17:58,757 - INFO - 
+Processing Ulefone Armor Mini 20 Pro Dual
+2024-12-12 02:17:58,757 - INFO - 
+Processing Ulefone Armor Mini 20T Pro Dual
+2024-12-12 02:17:58,758 - INFO - 
+Processing Ulefone Armor X12 Pro Dual
+2024-12-12 02:18:00,852 - INFO - Created variable product: Ulefone Armor X12 Pro Dual
+2024-12-12 02:18:03,162 - INFO - Created variation for SKU: 1042-130415-20526
+2024-12-12 02:18:05,425 - INFO - Created variation for SKU: 1042-130416-20527
+2024-12-12 02:18:07,463 - INFO - Created variation for SKU: 1042-130417-20521
+2024-12-12 02:18:07,463 - INFO - 
+Processing Ulefone Armor X13 Dual
+2024-12-12 02:18:09,550 - INFO - Created variable product: Ulefone Armor X13 Dual
+2024-12-12 02:18:11,763 - INFO - Created variation for SKU: 1042-130413-20523
+2024-12-12 02:18:13,975 - INFO - Created variation for SKU: 1042-130414-20522
+2024-12-12 02:18:13,975 - INFO - 
+Processing Ulefone Note 17 Pro Dual
+2024-12-12 02:18:13,976 - INFO - 
+Processing Ulefone Note 18 Ultra Dual
+2024-12-12 02:18:16,064 - INFO - Created variable product: Ulefone Note 18 Ultra Dual
+2024-12-12 02:18:18,276 - INFO - Created variation for SKU: 1042-131310-21053
+2024-12-12 02:18:20,736 - INFO - Created variation for SKU: 1042-131311-21052
+2024-12-12 02:18:22,927 - INFO - Created variation for SKU: 1042-131312-21054
+2024-12-12 02:18:22,927 - INFO - 
+Processing Ulefone Power Armor 16s Dual
+2024-12-12 02:18:24,891 - INFO - Created variable product: Ulefone Power Armor 16s Dual
+2024-12-12 02:18:27,000 - INFO - Created variation for SKU: 1042-131047-20902
+2024-12-12 02:18:29,459 - INFO - Created variation for SKU: 1042-131048-20901
+2024-12-12 02:18:29,459 - INFO - 
+Processing Ulefone Power Armor 17 Pro Dual
+2024-12-12 02:18:29,460 - INFO - 
+Processing Ulefone Power Armor 18 Ultra Version Dual
+2024-12-12 02:18:29,461 - INFO - 
+Processing Ulefone Power Armor 18T Ultra version Dual
+2024-12-12 02:18:29,462 - INFO - 
+Processing Ulefone Power Armor 19 Dual
+2024-12-12 02:18:29,462 - INFO - 
+Processing Ulefone Power Armor 19T Dual
+2024-12-12 02:18:29,463 - INFO - 
+Processing Xiaomi Redmi A3 Dual
+2024-12-12 02:18:29,463 - INFO - 
+Processing Apple Lightning USB
+2024-12-12 02:18:29,464 - INFO - 
+Processing Apple Power Charger 20W USB
+2024-12-12 02:18:29,465 - INFO - 
+Processing Apple USB
+2024-12-12 02:18:29,465 - INFO - 
+Processing Ulefone Smart Keyboard for Tab A11 Pro
+2024-12-12 02:18:29,466 - INFO - 
+Processing Nintendo Switch 1.1 Neon Red Neon Blue +Switch Sport +Band +12 Month
+2024-12-12 02:18:29,466 - INFO - 
+Processing Nintendo Switch Lite Turquoise + Animal C.N.H. + 12 Month NSO
+2024-12-12 02:18:29,467 - INFO - 
+Processing Nintendo Switch Lite Coral + Animal C.N.H. + 12 Month NSO
+2024-12-12 02:18:29,467 - INFO - 
+Processing Nintendo Switch Lite Hyrule Edition Special Edition + 12 Month NSO
+2024-12-12 02:18:29,468 - INFO - 
+Processing Sony PlayStation 5
+2024-12-12 02:18:29,468 - INFO - 
+Processing Sony PlayStation 5 Pro 2TB White
+2024-12-12 02:18:29,468 - INFO - 
+Processing Apple MPNY3TY
+2024-12-12 02:18:29,469 - INFO - 
+Processing Apple MXP93ZM
+2024-12-12 02:18:29,469 - INFO - 
+Processing Samsung R400N Galaxy Buds FE White
+2024-12-12 02:18:29,470 - INFO - 
+Processing Samsung R530 Galaxy Buds 3 White
+2024-12-12 02:18:29,470 - INFO - 
+Processing Xiaomi Mi H300 Ionic Hair Dryer White
+2024-12-12 02:18:29,471 - INFO - 
+Processing Apple MGN63TA MacBook Air Apple M1 8 Core 13 inch 256GB 8GB RAM Space Grey
+2024-12-12 02:18:29,471 - INFO - 
+Processing Apple Watch Series 9 GPS 45mm Starlight Aluminium Case with Starlight Sport Loop MR983ET
+2024-12-12 02:18:29,471 - INFO - 
+Processing Apple Watch Series 9 GPS 41mm Silver Aluminium Case with Winter Blue Sport Loop MR923ET
+2024-12-12 02:18:29,472 - INFO - 
+Processing Apple Watch Series 9 GPS 45mm Midnight Aluminium Case with Midnight Sport Loop MR9C3ET
+2024-12-12 02:18:29,472 - INFO - 
+Processing Apple Watch Series 9 GPS 45mm Pink Aluminium Case with Light Pink Sport Loop MR9J3ET
+2024-12-12 02:18:29,473 - INFO - 
+Processing Apple Watch Series 9 GPS 45mm Silver Aluminium Case with Winter BLue Sport Loop MR9F3ET
+2024-12-12 02:18:29,473 - INFO - 
+Processing Samsung Galaxy L300 40mm Smart Watch 7 Green
+2024-12-12 02:18:29,473 - INFO - 
+Processing Samsung Galaxy L305 40mm LTE Smart Watch 7 Green
+2024-12-12 02:18:29,474 - INFO - 
+Processing Samsung Galaxy R390 Fit3 Silver
+2024-12-12 02:18:29,474 - INFO - 
+Processing Samsung Galaxy L310 44mm Smart Watch 7 Green
+2024-12-12 02:18:29,475 - INFO - 
+Processing Samsung Galaxy L310 44mm Smart Watch 7 Silver
+2024-12-12 02:18:29,475 - INFO - 
+Processing Samsung Galaxy R960 47mm Smart Watch 6 Classic Black
+2024-12-12 02:18:29,476 - INFO - 
+Processing Samsung Galaxy R960 47mm Smart Watch 6 Classic Silver
+2024-12-12 02:18:29,476 - INFO - 
+Processing Samsung Galaxy R965 47mm Smart Watch 6 Classic LTE Silver
+2024-12-12 02:18:29,477 - INFO - 
+Processing Samsung R861 Galaxy Watch FE Silver
+2024-12-12 02:18:29,477 - INFO - 
+Processing Samsung Galaxy L705 47mm LTE Smart Watch Ultra Titanium White
+2024-12-12 02:18:29,477 - INFO - 
+Processing Samsung R861 Galaxy Watch FE Black
+2024-12-12 02:18:29,478 - INFO - 
+Processing Samsung R861 Galaxy Watch FE Pink Gold
+2024-12-12 02:18:29,478 - INFO - 
+Processing Apple MK2K3TY-A iPad 9th Gen.
+2024-12-12 02:18:29,479 - INFO - 
+Processing Apple MK2L3TY-A iPad 9th Gen.
+2024-12-12 02:18:29,479 - INFO - 
+Processing Apple iPad 10th Gen.
+2024-12-12 02:18:31,426 - INFO - Created variable product: Apple iPad 10th Gen.
+2024-12-12 02:18:33,757 - ERROR - API Error: 400 - {"code":"product_invalid_sku","message":"UGS non valide ou dupliqu\u00e9.","data":{"status":400,"resource_id":10866,"unique_sku":"2002-131579-1"}}
+2024-12-12 02:18:33,758 - ERROR - Error processing variation for SKU 2002-131579: API Error: {"code":"product_invalid_sku","message":"UGS non valide ou dupliqu\u00e9.","data":{"status":400,"resource_id":10866,"unique_sku":"2002-131579-1"}}
+2024-12-12 02:18:35,968 - ERROR - API Error: 400 - {"code":"product_invalid_sku","message":"UGS non valide ou dupliqu\u00e9.","data":{"status":400,"resource_id":10867,"unique_sku":"2002-131683-1"}}
+2024-12-12 02:18:35,969 - ERROR - Error processing variation for SKU 2002-131683: API Error: {"code":"product_invalid_sku","message":"UGS non valide ou dupliqu\u00e9.","data":{"status":400,"resource_id":10867,"unique_sku":"2002-131683-1"}}
+2024-12-12 02:18:37,997 - ERROR - API Error: 400 - {"code":"product_invalid_sku","message":"UGS non valide ou dupliqu\u00e9.","data":{"status":400,"resource_id":10868,"unique_sku":"2002-131580-1"}}
+2024-12-12 02:18:37,998 - ERROR - Error processing variation for SKU 2002-131580: API Error: {"code":"product_invalid_sku","message":"UGS non valide ou dupliqu\u00e9.","data":{"status":400,"resource_id":10868,"unique_sku":"2002-131580-1"}}
+2024-12-12 02:18:40,269 - ERROR - API Error: 400 - {"code":"product_invalid_sku","message":"UGS non valide ou dupliqu\u00e9.","data":{"status":400,"resource_id":10869,"unique_sku":"2002-131581-1"}}
+2024-12-12 02:18:40,270 - ERROR - Error processing variation for SKU 2002-131581: API Error: {"code":"product_invalid_sku","message":"UGS non valide ou dupliqu\u00e9.","data":{"status":400,"resource_id":10869,"unique_sku":"2002-131581-1"}}
+2024-12-12 02:18:40,270 - INFO - 
+Processing Samsung X210 Galaxy Tab A9+ 11 wifi  64GB 4GB RAM Silver  - EU Spec
+2024-12-12 02:18:40,271 - INFO - 
+Processing Samsung X210 Galaxy Tab A9+ 11 wifi  64GB 4GB RAM Navy  - EU Spec
+2024-12-12 02:18:40,272 - INFO - 
+Processing Samsung X210 Galaxy Tab A9+ 11 wifi  64GB 4GB RAM Graphite  - EU Spec
+2024-12-12 02:18:40,272 - INFO - 
+Processing Samsung X216B Galaxy Tab A9+ 11 5G  128GB 8GB RAM Graphite  - EU Spec
+2024-12-12 02:18:40,273 - INFO - 
+Processing Samsung X216B Galaxy Tab A9+ 11 5G  64GB 4GB RAM Silver  - EU Spec
+2024-12-12 02:18:40,273 - INFO - 
+Processing Samsung T636B Galaxy Tab Active 4 Pro 10.1 5G 6GB RAM 128GB Enterprise Edition Black  - EU Spec
+2024-12-12 02:18:40,274 - INFO - 
+Processing Samsung X306B Galaxy Tab Active5 5G EE 128GB 6GB RAM Green  - EU Spec
+2024-12-12 02:18:40,274 - INFO - 
+Processing Samsung X826B Galaxy Tab S10 Plus 12.4 5G 256GB 12GB RAM Silver  - EU Spec
+2024-12-12 02:18:40,275 - INFO - 
+Processing Samsung X826B Galaxy Tab S10 Plus 12.4 5G 512GB 12GB RAM Platinum Silver  - EU Spec
+2024-12-12 02:18:40,275 - INFO - 
+Processing Samsung X920 Galaxy Tab S10 Ultra WiFi 256GB 12GB RAM Moonstone Gray  - EU Spec
+2024-12-12 02:18:40,276 - INFO - 
+Processing Samsung X926B Galaxy Tab S10 Ultra 5G 256GB 12GB RAM Platinum Silver  - EU Spec
+2024-12-12 02:18:40,277 - INFO - 
+Processing Samsung P620 Galaxy Tab S6 Lite  10.4 Wifi 128GB 4GB RAM Gray  - EU Spec
+2024-12-12 02:18:40,277 - INFO - 
+Processing Samsung X510 Galaxy Tab S9 FE 10.9 Wifi  6GB RAM 128GB Mint  - EU Spec
+2024-12-12 02:18:40,277 - INFO - 
+Processing Samsung X610 Galaxy Tab S9 FE+ 12.4 Wifi  8GB RAM 128GB Gray  - EU Spec
+2024-12-12 02:18:40,278 - INFO - 
+Processing Samsung X610 Galaxy Tab S9 FE+ 12.4 Wifi  8GB RAM 128GB Silver  - EU Spec
+2024-12-12 02:18:40,278 - INFO - 
+Processing Ulefone Armor Pad 2 Wifi 256GB 8GB RAM Black  - EU Spec
+2024-12-12 02:18:40,279 - INFO - 
+Processing Ulefone Armor Pad 2 Wifi 256GB 8GB RAM Yellow  - EU Spec
+2024-12-12 02:18:40,279 - INFO - 
+Processing Ulefone Armor Pad 3 Pro LTE 256GB 8GB RAM Black  - EU Spec
+2024-12-12 02:18:40,280 - INFO - 
+Processing Ulefone Armor Pad 4 Ultra 5G 256GB 8GB RAM Black  - EU Spec
+2024-12-12 02:18:40,280 - INFO - 
+Processing Ulefone Armor Pad 4 Ultra 5G 256GB 8GB RAM Black   - EU Spec
+2024-12-12 02:18:40,280 - INFO - 
+Processing Ulefone Armor Pad Lite Wifi 32GB 3GB RAM Black  - EU Spec
+2024-12-12 02:18:40,281 - INFO - 
+Processing Ulefone Armor Pad LTE 64GB 4GB RAM Black  - EU Spec
+2024-12-12 02:18:40,281 - INFO - 
+Processing Ulefone Armor Pad Pro LTE 128GB 8GB RAM Black  - EU Spec
+2024-12-12 02:18:40,282 - INFO - 
+Processing Ulefone Tab A11 Wifi 128GB 4GB RAM Space Gray  - EU Spec
+2024-12-12 02:18:40,282 - INFO - 
+Processing Ulefone Tab W10 Wifi 128GB 4GB RAM Space Gray  - EU Spec
+2024-12-12 02:18:40,283 - INFO - 
+Processing Ulefone Tab A11 LTE 256GB 6GB RAM Space Gray  - EU Spec
+2024-12-12 02:18:40,283 - INFO - 
+Processing Ulefone Tab A11 Pro LTE 128GB 8GB RAM Space Grey  - EU Spec
+2024-12-12 02:18:40,283 - INFO - 
+Processing Ulefone Tab A11 Pro LTE 256GB 8GB RAM Space Grey  - EU Spec
+2024-12-12 02:18:40,284 - INFO - 
+Processing Ulefone UF005 Wireless Charger 15W Black
+2024-12-12 02:18:40,284 - INFO - 
+Processing Ulefone 50W wireless Charging Stand WCS01
+2024-12-12 02:18:40,285 - INFO - 
+Summary:
+2024-12-12 02:18:40,285 - INFO - Updated: 0
+2024-12-12 02:18:40,285 - INFO - Created: 40
+2024-12-12 02:18:40,285 - INFO - Errors: 4
+2024-12-12 02:18:40,285 - INFO - 
+Errors encountered:
+2024-12-12 02:18:40,285 - INFO - SKU: 2002-131579, Model: Apple iPad 10th Gen.
+2024-12-12 02:18:40,285 - INFO - SKU: 2002-131683, Model: Apple iPad 10th Gen.
+2024-12-12 02:18:40,285 - INFO - SKU: 2002-131580, Model: Apple iPad 10th Gen.
+2024-12-12 02:18:40,285 - INFO - SKU: 2002-131581, Model: Apple iPad 10th Gen.

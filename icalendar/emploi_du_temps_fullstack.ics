@@ -1,0 +1,218 @@
+BEGIN:VCALENDAR
+BEGIN:VEVENT
+SUMMARY:Définir les technologies
+DTSTART;TZID=Europe/Paris:20250108T090000
+DTEND;TZID=Europe/Paris:20250108T150000
+DESCRIPTION:6 heures prévues pour ce projet.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Définir les technologies
+DTSTART;TZID=Europe/Paris:20250109T090000
+DTEND;TZID=Europe/Paris:20250109T150000
+DESCRIPTION:6 heures prévues pour ce projet.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Définir les technologies
+DTSTART;TZID=Europe/Paris:20250110T090000
+DTEND;TZID=Europe/Paris:20250110T150000
+DESCRIPTION:6 heures prévues pour ce projet.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Définir les technologies
+DTSTART;TZID=Europe/Paris:20250113T090000
+DTEND;TZID=Europe/Paris:20250113T110000
+DESCRIPTION:2 heures prévues pour ce projet.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tester une application full-stack
+DTSTART;TZID=Europe/Paris:20250113T090000
+DTEND;TZID=Europe/Paris:20250113T130000
+DESCRIPTION:4 heures prévues pour ce projet.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tester une application full-stack
+DTSTART;TZID=Europe/Paris:20250114T090000
+DTEND;TZID=Europe/Paris:20250114T150000
+DESCRIPTION:6 heures prévues pour ce projet.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tester une application full-stack
+DTSTART;TZID=Europe/Paris:20250115T090000
+DTEND;TZID=Europe/Paris:20250115T150000
+DESCRIPTION:6 heures prévues pour ce projet.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tester une application full-stack
+DTSTART;TZID=Europe/Paris:20250116T090000
+DTEND;TZID=Europe/Paris:20250116T150000
+DESCRIPTION:6 heures prévues pour ce projet.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tester une application full-stack
+DTSTART;TZID=Europe/Paris:20250117T090000
+DTEND;TZID=Europe/Paris:20250117T150000
+DESCRIPTION:6 heures prévues pour ce projet.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tester une application full-stack
+DTSTART;TZID=Europe/Paris:20250120T090000
+DTEND;TZID=Europe/Paris:20250120T110000
+DESCRIPTION:2 heures prévues pour ce projet.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Développer une application full-stack complète
+DTSTART;TZID=Europe/Paris:20250120T090000
+DTEND;TZID=Europe/Paris:20250120T130000
+DESCRIPTION:4 heures prévues pour ce projet.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Développer une application full-stack complète
+DTSTART;TZID=Europe/Paris:20250121T090000
+DTEND;TZID=Europe/Paris:20250121T150000
+DESCRIPTION:6 heures prévues pour ce projet.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Développer une application full-stack complète
+DTSTART;TZID=Europe/Paris:20250122T090000
+DTEND;TZID=Europe/Paris:20250122T150000
+DESCRIPTION:6 heures prévues pour ce projet.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Développer une application full-stack complète
+DTSTART;TZID=Europe/Paris:20250123T090000
+DTEND;TZID=Europe/Paris:20250123T150000
+DESCRIPTION:6 heures prévues pour ce projet.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Développer une application full-stack complète
+DTSTART;TZID=Europe/Paris:20250124T090000
+DTEND;TZID=Europe/Paris:20250124T150000
+DESCRIPTION:6 heures prévues pour ce projet.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Développer une application full-stack complète
+DTSTART;TZID=Europe/Paris:20250127T090000
+DTEND;TZID=Europe/Paris:20250127T130000
+DESCRIPTION:4 heures prévues pour ce projet.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Point d'étape
+DTSTART;TZID=Europe/Paris:20250127T090000
+DTEND;TZID=Europe/Paris:20250127T110000
+DESCRIPTION:2 heures prévues pour ce projet.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cahier des charges
+DTSTART;TZID=Europe/Paris:20250128T090000
+DTEND;TZID=Europe/Paris:20250128T150000
+DESCRIPTION:6 heures prévues pour ce projet.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cahier des charges
+DTSTART;TZID=Europe/Paris:20250129T090000
+DTEND;TZID=Europe/Paris:20250129T150000
+DESCRIPTION:6 heures prévues pour ce projet.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cahier des charges
+DTSTART;TZID=Europe/Paris:20250130T090000
+DTEND;TZID=Europe/Paris:20250130T150000
+DESCRIPTION:6 heures prévues pour ce projet.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Cahier des charges
+DTSTART;TZID=Europe/Paris:20250131T090000
+DTEND;TZID=Europe/Paris:20250131T150000
+DESCRIPTION:6 heures prévues pour ce projet.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Validation\, chiffrage
+DTSTART;TZID=Europe/Paris:20250203T090000
+DTEND;TZID=Europe/Paris:20250203T150000
+DESCRIPTION:6 heures prévues pour ce projet.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Validation\, chiffrage
+DTSTART;TZID=Europe/Paris:20250204T090000
+DTEND;TZID=Europe/Paris:20250204T150000
+DESCRIPTION:6 heures prévues pour ce projet.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Gestion CI/CD
+DTSTART;TZID=Europe/Paris:20250205T090000
+DTEND;TZID=Europe/Paris:20250205T150000
+DESCRIPTION:6 heures prévues pour ce projet.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Gestion CI/CD
+DTSTART;TZID=Europe/Paris:20250206T090000
+DTEND;TZID=Europe/Paris:20250206T150000
+DESCRIPTION:6 heures prévues pour ce projet.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Gestion CI/CD
+DTSTART;TZID=Europe/Paris:20250207T090000
+DTEND;TZID=Europe/Paris:20250207T150000
+DESCRIPTION:6 heures prévues pour ce projet.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Gestion CI/CD
+DTSTART;TZID=Europe/Paris:20250210T090000
+DTEND;TZID=Europe/Paris:20250210T150000
+DESCRIPTION:6 heures prévues pour ce projet.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Encadrer une équipe
+DTSTART;TZID=Europe/Paris:20250211T090000
+DTEND;TZID=Europe/Paris:20250211T150000
+DESCRIPTION:6 heures prévues pour ce projet.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Encadrer une équipe
+DTSTART;TZID=Europe/Paris:20250212T090000
+DTEND;TZID=Europe/Paris:20250212T150000
+DESCRIPTION:6 heures prévues pour ce projet.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Encadrer une équipe
+DTSTART;TZID=Europe/Paris:20250213T090000
+DTEND;TZID=Europe/Paris:20250213T150000
+DESCRIPTION:6 heures prévues pour ce projet.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Planifier les tests
+DTSTART;TZID=Europe/Paris:20250214T090000
+DTEND;TZID=Europe/Paris:20250214T150000
+DESCRIPTION:6 heures prévues pour ce projet.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Planifier les tests
+DTSTART;TZID=Europe/Paris:20250217T090000
+DTEND;TZID=Europe/Paris:20250217T150000
+DESCRIPTION:6 heures prévues pour ce projet.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Planifier les tests
+DTSTART;TZID=Europe/Paris:20250218T090000
+DTEND;TZID=Europe/Paris:20250218T150000
+DESCRIPTION:6 heures prévues pour ce projet.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Solution fonctionnelle
+DTSTART;TZID=Europe/Paris:20250219T090000
+DTEND;TZID=Europe/Paris:20250219T150000
+DESCRIPTION:6 heures prévues pour ce projet.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Solution fonctionnelle
+DTSTART;TZID=Europe/Paris:20250220T090000
+DTEND;TZID=Europe/Paris:20250220T150000
+DESCRIPTION:6 heures prévues pour ce projet.
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Solution fonctionnelle
+DTSTART;TZID=Europe/Paris:20250221T090000
+DTEND;TZID=Europe/Paris:20250221T150000
+DESCRIPTION:6 heures prévues pour ce projet.
+END:VEVENT
+END:VCALENDAR

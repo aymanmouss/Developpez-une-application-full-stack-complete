@@ -1,0 +1,296 @@
+<div id="pros-cons-for-variants" class="columns small-12 xxlarge-12">
+
+    <h2 class="prosCons-title">
+        Points forts et points faibles</h2>
+
+    <div class="prosCons-content-container">
+        <div class="prosCons-explanation">
+            La rédaction d'idealo a résumé pour vous les informations les plus importantes.</div>
+
+        <div>
+            <style>
+                .component-container {
+                    font-family: idealo, Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen, "Open Sans", "Helvetica Neue", sans-serif;
+                    line-height: 1.4;
+                    padding-bottom: 0.9375rem
+                }
+
+                .component-container>h2 {
+                    font-size: 1.25rem
+                }
+
+                .component-container.pros-cons-container {
+                    padding-bottom: 1.5625rem
+                }
+
+                .component-container .rich-text {
+                    color: #2d2d2d
+                }
+
+                .component-container .rich-text h2,
+                .component-container .rich-text h3,
+                .component-container .rich-text h4,
+                .component-container .rich-text div {
+                    margin: 0
+                }
+
+                .component-container .rich-text h2 {
+                    font-weight: 500;
+                    font-size: 1.25rem;
+                    line-height: 1.625rem;
+                    padding: 0 0 0.9375rem
+                }
+
+                .component-container .rich-text *+h2 {
+                    padding-top: 1.5625rem
+                }
+
+                .component-container .rich-text h3 {
+                    font-weight: 500;
+                    font-size: 1rem;
+                    line-height: 1.375rem;
+                    padding: 0.625rem 0
+                }
+
+                .component-container .rich-text h2+h3,
+                .component-container .rich-text h3+h3,
+                .component-container .rich-text h4+h3 {
+                    padding: 0 0 0.625rem
+                }
+
+                .component-container .rich-text h4 {
+                    font-weight: 700;
+                    font-size: 0.875rem;
+                    line-height: 1.25rem;
+                    padding: 0.625rem 0
+                }
+
+                .component-container .rich-text h2+h4,
+                .component-container .rich-text h3+h4,
+                .component-container .rich-text h4+h4 {
+                    padding: 0 0 0.625rem
+                }
+
+                .component-container .rich-text p,
+                .component-container .rich-text div {
+                    font-weight: 400;
+                    font-size: 0.875rem;
+                    line-height: 1.25rem;
+                    padding: 0 0 0.9375rem
+                }
+
+                .component-container .rich-text p {
+                    margin-top: 0;
+                    margin-bottom: 0
+                }
+
+                .component-container .rich-text p.small-body {
+                    font-size: 0.75rem;
+                    line-height: 1.0625rem
+                }
+
+                .component-container .rich-text ul,
+                .component-container .rich-text ol {
+                    margin: 0;
+                    padding-left: 1.25rem;
+                    padding-bottom: 0.9375rem
+                }
+
+                .component-container .rich-text li {
+                    font-weight: 400;
+                    font-size: 0.875rem;
+                    line-height: 1.25rem
+                }
+
+                .component-container .rich-text li p {
+                    font-size: inherit;
+                    line-height: inherit;
+                    margin: 0;
+                    padding: 0
+                }
+
+                .component-container .rich-text a {
+                    color: #0771d0;
+                    text-decoration: none
+                }
+
+                .component-container .rich-text a:hover {
+                    cursor: pointer;
+                    text-decoration: underline
+                }
+
+                .component-container .rich-text .layout-container {
+                    display: flex
+                }
+
+                .component-container .rich-text .layout-container .column {
+                    flex-basis: 50%;
+                    padding: 0 0.9375rem
+                }
+
+                .component-container .rich-text .layout-container .column p:last-of-type {
+                    padding-bottom: 0
+                }
+
+                .component-container .rich-text .layout-container .column:first-of-type {
+                    padding-left: 0
+                }
+
+                .component-container .rich-text .layout-container .column:last-of-type {
+                    padding-right: 0;
+                    border-right: 0
+                }
+
+                .component-container .pros-cons-intro-container>.rich-text>p:first-of-type {
+                    margin-top: 0.9375rem
+                }
+
+                .component-container .pros-cons-intro-container>.rich-text>p:last-of-type {
+                    margin-bottom: 0;
+                    padding-bottom: 0
+                }
+
+                .component-container .pros-cons-intro-container>.rich-text>h2 {
+                    padding: 0
+                }
+
+                .component-container .pros-cons {
+                    display: flex;
+                    flex-direction: column;
+                    margin-bottom: 0.9375rem
+                }
+
+                @media(min-width: 992px) {
+                    .component-container .pros-cons {
+                        display: grid;
+                        grid-template-columns: repeat(2, minmax(0, 1fr));
+                        grid-gap: 20px
+                    }
+                }
+
+                .component-container .pros-cons .box {
+                    border-radius: 0.5rem;
+                    border: 1px solid;
+                    padding: 15px;
+                    color: #2d2d2d
+                }
+
+                @media(min-width: 992px) {
+                    .component-container .pros-cons .box {
+                        flex: 0 0 50%
+                    }
+                }
+
+                .component-container .pros-cons .box:first-child {
+                    margin-bottom: 10px;
+                    border-color: #38bf84;
+                    background-color: rgba(56, 191, 132, .05)
+                }
+
+                @media(min-width: 992px) {
+                    .component-container .pros-cons .box:first-child {
+                        margin-bottom: 0
+                    }
+                }
+
+                .component-container .pros-cons .box:last-child {
+                    border-color: #e52421;
+                    background-color: rgba(229, 36, 33, .05)
+                }
+
+                .component-container .pros-cons .box .title {
+                    font-size: 1rem;
+                    line-height: 1.375rem;
+                    font-weight: 500;
+                    margin-bottom: 10px
+                }
+
+                .component-container .pros-cons ul {
+                    padding: 0;
+                    margin: 0;
+                    list-style: none;
+                    outline: none
+                }
+
+                .component-container .pros-cons ul>li {
+                    position: relative;
+                    width: 100%;
+                    padding-left: 26px;
+                    font-size: 0.875rem;
+                    line-height: 20px;
+                    min-height: 20px;
+                    margin-bottom: 10px;
+                    color: #2d2d2d;
+                    list-style-type: none
+                }
+
+                .component-container .pros-cons ul>li:before {
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    top: 50%;
+                    margin-top: -8px;
+                    width: 16px;
+                    height: 16px;
+                    background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIGlkPSJhIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTEuOTEsMTEuMDFoLjAyNWwtLjAxLS4wMDMtLjAxNSwuMDAzWiIvPjxwYXRoIGZpbGw9IiMzOEJGODQiIGQ9Ik0xMiwxQzUuOTM1LDEsMSw1LjkzNSwxLDEyczQuOTM1LDExLDExLDExLDExLTQuOTM1LDExLTExUzE4LjA2NSwxLDEyLDFabTYsMTJoLTV2NWMwLC41NTItLjQ0NywxLTEsMXMtMS0uNDQ4LTEtMXYtNUg2Yy0uNTUzLDAtMS0uNDQ4LTEtMXMuNDQ3LTEsMS0xaDVWNmMwLS41NTIsLjQ0Ny0xLDEtMXMxLC40NDgsMSwxdjVoNWMuNTUzLDAsMSwuNDQ4LDEsMXMtLjQ0NywxLTEsMVoiLz48L3N2Zz4=");
+                    background-size: contain
+                }
+
+                .component-container .pros-cons ul>li p {
+                    font-size: inherit;
+                    line-height: inherit;
+                    margin: 0;
+                    padding: 0;
+                    color: inherit
+                }
+
+                .component-container .pros-cons ul>li a {
+                    color: #0771d0
+                }
+
+                .component-container .pros-cons .box:last-child ul li:before {
+                    background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIGlkPSJhIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBkPSJNMTEuOTEsMTEuMDFoLjAyNWwtLjAxLS4wMDMtLjAxNSwuMDAzWiIvPjxwYXRoIGZpbGw9IiNFNTI0MjEiIGQ9Ik0xMiwxQzUuOTM1LDEsMSw1LjkzNSwxLDEyczQuOTM1LDExLDExLDExLDExLTQuOTM1LDExLTExUzE4LjA2NSwxLDEyLDFabTYsMTJINmMtLjU1MywwLTEtLjQ0OC0xLTFzLjQ0Ny0xLDEtMWgxMmMuNTUzLDAsMSwuNDQ4LDEsMXMtLjQ0NywxLTEsMVoiLz48L3N2Zz4=")
+                }
+            </style>
+            <script
+                type="application/ld+json">{"@context":"http://schema.org","@type":"Product","name":"Samsung Galaxy S25","review":{"@type":"Review","author":{"@type":"Organization","name":"idealo"},"positiveNotes":{"@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"<p>&Eacute;cran AMOLED net et lumineux</p>"},{"@type":"ListItem","position":2,"name":"<p>Nombreuses fonctionnalit&eacute;s d'IA&nbsp;</p>"},{"@type":"ListItem","position":3,"name":"<p>Bo&icirc;tier &eacute;tanche &agrave; l'eau et &agrave; la poussi&egrave;re</p>"},{"@type":"ListItem","position":4,"name":"<p>Triple cam&eacute;ra avec support IA &eacute;tendu</p>"}]},"negativeNotes":{"@type":"ItemList","itemListElement":[{"@type":"ListItem","position":1,"name":"<p>Charge rapide limit&eacute;e</p>"},{"@type":"ListItem","position":2,"name":"<p>Peu de nouveaut&eacute;s par rapport au mod&egrave;le pr&eacute;c&eacute;dent&nbsp;</p>"}]}}}</script>
+            <div class="component-container pros-cons-container" data-sp-tracking="view"
+                data-sp-tracking-meta="{&quot;event&quot;:&quot;pros_cons_view&quot;, &quot;version&quot;:&quot;1-0-0&quot;, &quot;owner&quot;:&quot;de.idealo.koopa&quot;}"
+                snowplow-event-tracking-registered="true">
+                <div class="rich-text">
+                    <h2>Samsung Galaxy S25 : notre avis</h2>
+                </div>
+                <div class="pros-cons">
+                    <div class="box">
+                        <div class="title">Points forts</div>
+                        <ul>
+                            <li>
+                                <p>Écran AMOLED net et lumineux</p>
+                            </li>
+                            <li>
+                                <p>Nombreuses fonctionnalités d'IA&nbsp;</p>
+                            </li>
+                            <li>
+                                <p>Boîtier étanche à l'eau et à la poussière</p>
+                            </li>
+                            <li>
+                                <p>Triple caméra avec support IA étendu</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <div class="title">Points faibles</div>
+                        <ul>
+                            <li>
+                                <p>Charge rapide limitée</p>
+                            </li>
+                            <li>
+                                <p>Peu de nouveautés par rapport au modèle précédent&nbsp;</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
