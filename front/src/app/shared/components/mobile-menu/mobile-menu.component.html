@@ -1,0 +1,12 @@
+<nav class="mobile-menu">
+    <div class="mobile-menu-content">
+        <a mat-list-item class="lougoutButton" (click)="logOut()">Se déconnecter</a>
+        <a mat-list-item routerLink="/posts" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"
+            (click)="navigateTo('/posts')" (click)="drawer.close()">Articles</a>
+        <a mat-list-item routerLink="/topics" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"
+            (click)="navigateTo('/topics')" (click)="drawer.close()">Thèmes</a>
+    </div>
+    <a mat-list-item routerLink="/me" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"
+        (click)="navigateTo('/me')" (click)="drawer.close()"><mat-icon routerLinkActive="active"
+            class="userIcon">account_circle</mat-icon></a>
+</nav>

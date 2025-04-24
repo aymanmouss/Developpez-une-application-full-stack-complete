@@ -1,0 +1,40 @@
+.post-detail-comment {
+  display: flex;
+  margin-left: 2.3rem;
+  align-items: start;
+}
+.comment {
+  background: #eeeeee;
+  width: 100%;
+  height: 100%;
+  max-width: 449px;
+  border-radius: 10px;
+  margin-top: 1rem;
+  .comment-content {
+    padding: 1rem;
+    margin: 0;
+  }
+}
+.comment-username {
+  width: 150px;
+}
+@media (max-width: 744px) {
+  .post-detail-comment {
+    margin-left: 0;
+  }
+}
+@media (max-width: 517px) {
+  .post-detail-comment {
+    flex-wrap: wrap;
+    justify-content: end;
+  }
+  .comment {
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  .comment-username {
+    width: auto;
+    margin-bottom: 0.5rem;
+  }
+}

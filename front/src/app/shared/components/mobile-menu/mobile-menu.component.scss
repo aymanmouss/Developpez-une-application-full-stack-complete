@@ -1,0 +1,31 @@
+.active {
+  color: #7763c5 !important;
+}
+
+.mobile-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  font-size: 1.2rem;
+  justify-content: space-between;
+  height: 100%;
+
+  margin: 0 20px 0 50px;
+}
+.lougoutButton {
+  color: #a40f0f;
+}
+
+.userIcon {
+  font-size: 4rem;
+  width: 4rem;
+  height: 4rem;
+  color: #d9d9d9;
+}
+.mobile-menu-content {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 10px;
+  padding-top: 40px;
+}

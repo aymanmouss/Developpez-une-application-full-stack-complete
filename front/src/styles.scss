@@ -1,0 +1,61 @@
+@use "@angular/material" as mat;
+
+html {
+  @include mat.theme(
+    (
+      color: (
+        theme-type: light,
+        primary: mat.$azure-palette,
+        tertiary: mat.$blue-palette,
+      ),
+      typography: Roboto,
+      density: 0,
+    )
+  );
+}
+
+html,
+body {
+  html {
+    font-size: 16px;
+  }
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Inter, "Helvetica Neue", sans-serif;
+}
+
+.ConstomAuthButton {
+  @include mat.button-overrides(
+    (
+      outlined-container-shape: 8px,
+      outlined-horizontal-padding: 50px,
+      outlined-label-text-color: #000000,
+    )
+  );
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.submit-button {
+  background-color: #7b68ee;
+  border-radius: 0.25rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  margin-top: 0.625rem;
+}
+
+.submit-button {
+  @include mat.button-overrides(
+    (
+      outlined-label-text-color: rgb(255, 255, 255),
+    )
+  );
+}

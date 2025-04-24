@@ -1,0 +1,40 @@
+@use "@angular/material" as mat;
+
+.inscription-container {
+  max-width: 25rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: normal;
+  margin-bottom: 1.875rem;
+}
+
+.mat-mdc-form-field {
+  width: 100%;
+  margin-bottom: 0.625rem;
+}
+
+.submit-button {
+  background-color: #7b68ee;
+  border-radius: 0.25rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  margin-top: 0.625rem;
+}
+
+.submit-button {
+  @include mat.button-overrides(
+    (
+      outlined-label-text-color: rgb(255, 255, 255),
+    )
+  );
+}
+
+@media screen and (max-width: 410px) {
+  .inscription-container {
+    padding: 0 1.25rem;
+  }
+}

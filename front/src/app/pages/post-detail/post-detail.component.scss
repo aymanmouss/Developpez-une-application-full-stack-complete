@@ -1,0 +1,76 @@
+.arrowIcon {
+  width: 3rem;
+  height: 3rem;
+  font-size: 3rem;
+  margin: 0rem 2rem 2rem 2rem;
+  cursor: pointer;
+}
+.post-detail {
+  width: 100%;
+  margin-right: 2rem;
+}
+.arrowIcon:hover {
+  color: #757373;
+}
+.post-detail-title {
+  font-size: 2rem;
+  margin: 0 0 2rem 0;
+}
+.post-detail-header {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  margin-top: 2rem;
+}
+.post-detail-metadata {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.post-detail-content {
+  max-width: 100%;
+  margin: 2rem 0;
+}
+.post-comment-detail {
+  min-width: 100%;
+}
+mat-form-field.mat-mdc-form-field {
+  width: 100%;
+  max-width: 650px;
+}
+
+textarea {
+  min-height: 100px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 0px !important;
+  box-sizing: border-box;
+}
+.comment-form-container {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-top: 2rem;
+  gap: 1.5rem;
+}
+.sendIcon {
+  width: 2.5rem;
+  height: 2.5rem;
+  font-size: 2.5rem;
+  cursor: pointer;
+  rotate: 310deg;
+  color: #7763c5;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+@media (max-width: 517px) {
+  .post-detail-comment-title {
+    margin-bottom: 0;
+  }
+  .post-detail-metadata {
+    flex-wrap: wrap;
+  }
+  .post {
+    margin-left: -50px;
+  }
+}

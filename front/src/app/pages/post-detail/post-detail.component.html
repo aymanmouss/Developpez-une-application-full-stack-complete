@@ -1,0 +1,39 @@
+<section>
+    <section class="post-detail-header">
+        <mat-icon class="arrowIcon" (click)=goBack()>west</mat-icon>
+        <section class="post-detail">
+            @if (postService.post(); as post) {
+            <h1 class="post-detail-title">{{post.title}}</h1>
+            }
+            <div class="post">
+                @if (postService.post(); as post) {
+                <div class="post-detail-metadata">
+                    <div class="post-detail-date">Date: {{post.createdAt | date}}</div>
+                    <div class="post-detail-author">Auteur: {{post.username}}</div>
+                    <div class="post-detail-author">Thème: {{post.topicName}} </div>
+                </div>
+
+                <p class="post-detail-content">
+                    {{post.content}}
+                </p>
+                }
+                <mat-divider></mat-divider>
+                <div class="post-comment-detail">
+                    <p class="post-detail-comment-title">Commentaires</p>
+                    <div class="comments">
+                        @for (comment of comments; track $index) {
+                        <app-comment [comment]="comment"></app-comment>
+                        }
+                    </div>
+                    <form [formGroup]="responseForm" class="comment-form-container">
+                        <mat-form-field appearance="outline" class="comment-form">
+                            <textarea formControlName="comment" matInput
+                                placeholder="Écrivez ici votre commentaire"></textarea>
+                        </mat-form-field>
+                        <mat-icon (click)="commentSubmit()" class="sendIcon">send</mat-icon>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </section>
+</section>

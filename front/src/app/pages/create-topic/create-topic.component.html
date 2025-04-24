@@ -1,0 +1,15 @@
+<div class="inscription-container">
+    <h1 class="form-title">Créer un nouvel Thèmes</h1>
+    <form [formGroup]="responseForm">
+
+        <mat-form-field appearance="outline">
+            <mat-label>Titre de l’article</mat-label>
+            <input matInput formControlName="title" />
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Contenu de l’article</mat-label>
+            <textarea matInput formControlName="description"></textarea>
+        </mat-form-field>
+    </form>
+</div>
+<button mat-stroked-button class="create-button" type="submit" (click)="onSubmit()">Créer</button>

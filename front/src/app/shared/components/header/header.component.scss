@@ -1,0 +1,70 @@
+.header {
+  width: 100%;
+  .headerContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 2.5rem 0 1.5rem;
+    .headerLogo {
+      max-width: clamp(10rem, 15vw, 14.375rem);
+      cursor: pointer;
+    }
+
+    .headerNav {
+      display: flex;
+      align-items: center;
+      font-size: clamp(1rem, 1.5vw, 1.25rem);
+      gap: clamp(1rem, 5vw, 3.75rem);
+      cursor: pointer;
+
+      .lougoutButton {
+        color: #a40f0f;
+      }
+    }
+
+    .userIcon {
+      font-size: 4rem;
+      width: 4rem;
+      height: 4rem;
+      color: #d9d9d9;
+    }
+  }
+}
+
+.arrowIcon {
+  width: 3rem;
+  height: 3rem;
+  font-size: 3rem;
+  margin: 2rem;
+  cursor: pointer;
+}
+.arrowIcon:hover {
+  color: #757373;
+}
+
+.menuIcon {
+  width: 2.5rem;
+  height: 2.5rem;
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+
+.active {
+  color: #7763c5 !important;
+}
+
+.mobile-only {
+  display: none;
+}
+
+@media (max-width: 730px) {
+  .header .headerContent .headerNav {
+    display: none;
+  }
+  .mobile-only {
+    display: block;
+  }
+  .headerLogo {
+    width: 130px;
+  }
+}

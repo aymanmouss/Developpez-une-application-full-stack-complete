@@ -1,0 +1,14 @@
+.article-metadata {
+  display: flex;
+  gap: 70px;
+  margin: 20px 0px;
+}
+.article-card {
+  min-height: 200px;
+  cursor: pointer;
+}
+@media (max-width: 606px) {
+  .article-card {
+    min-height: 180px;
+  }
+}

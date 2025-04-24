@@ -1,0 +1,19 @@
+<div class="inscription-container">
+    <h1>Inscription</h1>
+    <form [formGroup]="registerForm">
+        <mat-form-field appearance="outline">
+            <mat-label>Nom d'utilisateur</mat-label>
+            <input matInput formControlName="username">
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+            <mat-label>Adresse e-mail</mat-label>
+            <input matInput formControlName="email" type="email">
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Mot de passe</mat-label>
+            <input matInput formControlName="password" type="password">
+        </mat-form-field>
+        <button (click)="submit()" mat-stroked-button class="submit-button" type="submit">S'inscrire</button>
+    </form>
+</div>

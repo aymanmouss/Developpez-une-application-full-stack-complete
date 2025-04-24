@@ -1,0 +1,54 @@
+.center {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.logo {
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-size: clamp(1.5rem, 5vw, 2.5rem);
+  text-align: center;
+  margin: 20px 0;
+}
+
+.auth-buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 16px;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.CustomAuthButton {
+  flex: 1;
+  padding: 12px 24px;
+  text-align: center;
+  min-width: 120px;
+  border-radius: 4px;
+}
+
+@media (max-width: 480px) {
+  .auth-buttons-container {
+    flex-direction: column;
+    max-width: 280px;
+  }
+  .logo {
+    width: 300px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .auth-buttons-container {
+    max-width: 400px;
+  }
+}

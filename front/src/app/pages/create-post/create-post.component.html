@@ -1,0 +1,22 @@
+<div class="inscription-container">
+    <h1 class="form-title">Créer un nouvel article</h1>
+    <form [formGroup]="responseForm">
+        <mat-form-field appearance="outline">
+            <mat-label>Sélectionner un thème</mat-label>
+            <mat-select formControlName="topicId">
+                @for (topic of topics$ | async; track topic.id) {
+                <mat-option [value]="topic.id">{{topic.title}}</mat-option>
+                }
+            </mat-select>
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Titre de l’article</mat-label>
+            <input matInput formControlName="title" />
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Contenu de l’article</mat-label>
+            <textarea matInput formControlName="content"></textarea>
+        </mat-form-field>
+    </form>
+</div>
+<button mat-stroked-button class="create-button" type="submit" (click)="onSubmit()">Créer</button>

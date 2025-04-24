@@ -1,0 +1,15 @@
+<section class="posts">
+    <section class="posts-header">
+        <button mat-stroked-button class="create-button" type="submit" (click)="navigateToPostCreation()">Créer un
+            article</button>
+        <div class="posts-header-sort">
+            <p class="sort-text">Trier par</p>
+            <mat-icon routerLinkActive="active" class="userIcon">south</mat-icon>
+        </div>
+    </section>
+    <div class="cards">
+        <div class="card-container" *ngFor="let post of postService.posts() ">
+            <app-article-card (click)="navigateToPostDetails(post?.id)" [post]="post"></app-article-card>
+        </div>
+    </div>
+</section>

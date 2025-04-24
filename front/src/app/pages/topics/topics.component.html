@@ -1,0 +1,7 @@
+<button mat-stroked-button class="create-button" (click)="navigateToTopic()">Créer un
+    thèmes</button>
+<section class=" topics">
+    @for(topic of topics; track topic ){
+    <app-topic-card [topic]="topic" [textButton]="textButton" class="card" [topicId]="topic.id"></app-topic-card>
+    }
+</section>

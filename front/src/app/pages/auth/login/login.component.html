@@ -1,0 +1,14 @@
+<div class="inscription-container">
+    <h1>Se connecter</h1>
+    <form [formGroup]="responseForm">
+        <mat-form-field appearance="outline">
+            <mat-label>E-mail ou nom d’utilisateur</mat-label>
+            <input matInput formControlName="usernameOrEmail">
+        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Mot de passe</mat-label>
+            <input matInput formControlName="password" type="password">
+        </mat-form-field>
+        <button mat-stroked-button class="submit-button" type="submit" (click)="onSubmit()">Se connecter</button>
+    </form>
+</div>

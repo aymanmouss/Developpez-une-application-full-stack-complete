@@ -1,0 +1,24 @@
+<header class="header">
+    <div class="headerContent">
+        <img (click)="navigateTo('/')" class="headerLogo" src="logo_p6.png" alt="logo" />
+        @if(isLogeedin()){
+        <nav class="headerNav desktop-only">
+            <a class="lougoutButton" (click)="logOut()">Se déconnecter</a>
+            <a routerLink="/posts" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"
+                (click)="navigateTo('/posts')">Articles</a>
+            <a routerLink="/topics" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"
+                (click)="navigateTo('/topics')">Thèmes</a>
+            <a routerLink="/me" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"
+                (click)="navigateTo('/me')"><mat-icon routerLinkActive="active"
+                    class="userIcon">account_circle</mat-icon></a>
+        </nav>
+        <mat-icon class="menuIcon mobile-only" (click)="openMobileMenu()">menu</mat-icon>
+        }
+    </div>
+    <mat-divider></mat-divider>
+</header>
+@if (router.url.startsWith('/login') || router.url.startsWith ('/register') || router.url.startsWith ('/posts/create')
+|| router.url.startsWith ('/topics/create') )
+{
+<mat-icon class="arrowIcon" (click)=goBack()>west</mat-icon>
+}
