@@ -12,6 +12,8 @@ import lombok.RequiredArgsConstructor;
 import org.hibernate.service.spi.ServiceException;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @RequiredArgsConstructor
 @Service
 public class SubscriptionService {
@@ -26,7 +28,10 @@ public class SubscriptionService {
           User user = securityService.getCurrentUser();
           Topic topic = topicRepository.findById(dto.getTopicId())
                   .orElseThrow(() -> new ServiceException("Topic not found"));
-
+          boolean alreadySubscribed = subscriptionRepository.existsByUserAndTopic(user, topic);
+            if (alreadySubscribed) {
+                throw new ServiceException("Already subscribed to this topic");
+            }
           Subscription subscriptionEntity = subscriptionMapper.toEntity(dto, user, topic);
 
           subscriptionRepository.save(subscriptionEntity);
@@ -39,13 +44,24 @@ public class SubscriptionService {
 
     public String unsubscribe(SubscriptionRequestDTO dto){
         try{
-            Subscription subscription = subscriptionRepository.findById(dto.getTopicId())
+            Subscription topic = subscriptionRepository.findById(dto.getTopicId())
                     .orElseThrow(() -> new ServiceException("Subscription not found"));
+            User user = securityService.getCurrentUser();
+            Subscription subscription = subscriptionRepository.findById(dto.getTopicId())
+                    .orElseThrow(() -> new ServiceException("Topic not found"));
             subscriptionRepository.delete(subscription);
             return "Unsubscribed successfully";
         }catch (Exception e){
             throw new ServiceException("Error unsubscribing", e);
         }
+    }
+
+    public List<Long>getCurrentUserSubscribedTopicIds(){
+        User user = securityService.getCurrentUser();
+        List<Subscription> subscriptions = subscriptionRepository.findByUser(user);
+        return subscriptions.stream()
+                .map(subscription -> subscription.getTopic().getId())
+                .toList();
     }
 
 }
