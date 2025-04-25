@@ -44,11 +44,11 @@ public class SubscriptionService {
 
     public String unsubscribe(SubscriptionRequestDTO dto){
         try{
-            Subscription topic = subscriptionRepository.findById(dto.getTopicId())
-                    .orElseThrow(() -> new ServiceException("Subscription not found"));
-            User user = securityService.getCurrentUser();
-            Subscription subscription = subscriptionRepository.findById(dto.getTopicId())
+            Topic topic = topicRepository.findById(dto.getTopicId())
                     .orElseThrow(() -> new ServiceException("Topic not found"));
+            User user = securityService.getCurrentUser();
+            Subscription subscription = subscriptionRepository.findByUserAndTopic(user, topic)
+                    .orElseThrow(() -> new ServiceException("Subscription not found"));
             subscriptionRepository.delete(subscription);
             return "Unsubscribed successfully";
         }catch (Exception e){
