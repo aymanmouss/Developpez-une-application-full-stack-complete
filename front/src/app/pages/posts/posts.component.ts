@@ -1,16 +1,16 @@
-import { Component, OnInit } from '@angular/core';
-import { Post } from '../../models/post';
-import { ArticleCardComponent } from '../../shared/components/article-card/article-card.component';
-import { MatGridListModule } from '@angular/material/grid-list';
-import { CommonModule } from '@angular/common';
-import { MatIconModule } from '@angular/material/icon';
-import { ActivatedRoute, Router } from '@angular/router';
-import { MatFormFieldModule } from '@angular/material/form-field';
-import { map, Observable } from 'rxjs';
-import { PostService } from '../../core/services/post.service';
+import { Component, OnInit } from "@angular/core";
+import { Post } from "../../models/post";
+import { ArticleCardComponent } from "../../shared/components/article-card/article-card.component";
+import { MatGridListModule } from "@angular/material/grid-list";
+import { CommonModule } from "@angular/common";
+import { MatIconModule } from "@angular/material/icon";
+import { ActivatedRoute, Router } from "@angular/router";
+import { MatFormFieldModule } from "@angular/material/form-field";
+import { map, Observable } from "rxjs";
+import { PostService } from "../../core/services/post.service";
 
 @Component({
-  selector: 'app-posts',
+  selector: "app-posts",
   imports: [
     ArticleCardComponent,
     MatGridListModule,
@@ -18,8 +18,8 @@ import { PostService } from '../../core/services/post.service';
     MatIconModule,
     MatFormFieldModule,
   ],
-  templateUrl: './posts.component.html',
-  styleUrl: './posts.component.scss',
+  templateUrl: "./posts.component.html",
+  styleUrl: "./posts.component.scss",
 })
 export class PostsComponent implements OnInit {
   columns: number = 2;
@@ -35,10 +35,10 @@ export class PostsComponent implements OnInit {
   }
 
   navigateToPostCreation() {
-    this.router.navigate(['/posts/create']);
+    this.router.navigate(["/posts/create"]);
   }
   navigateToPostDetails(postId: number | undefined) {
-    this.router.navigate(['/posts', postId]);
+    this.router.navigate(["/posts", postId]);
   }
   trackById(index: number, post: Post): number | undefined {
     return post?.id;

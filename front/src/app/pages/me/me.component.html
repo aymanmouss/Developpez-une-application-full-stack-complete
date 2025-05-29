@@ -13,12 +13,15 @@
             <mat-label>Mot de passe</mat-label>
             <input matInput formControlName="password" type="password">
         </mat-form-field>
-        <button mat-stroked-button class="submit-button" type="submit">Sauvegarder</button>
+        <button mat-stroked-button class="submit-button" type="submit" (click)="
+        updateUserDetails()">Sauvegarder</button>
     </form>
 </div>
 <mat-divider class="divider"></mat-divider>
-<section class=" topics">
-    @for(topic of topics; track topic ){
-    <app-topic-card [topic]="topic" [textButton]="textButton" class="card"></app-topic-card>
+<section class="topics">
+    @for(topic of (topics$ | async); track topic) {
+    <app-topic-card [topic]="topic" [textButton]=" 'Se désabonner'" class="card" [subscribeFn]="unsubscribe "
+        [disable]="!isSubscribe(topic.id) ? ' subscribe-button-color' : 'unsubscribe-button-color'">
+    </app-topic-card>
     }
 </section>

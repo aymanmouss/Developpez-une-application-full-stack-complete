@@ -19,3 +19,12 @@ export interface UserDetails {
   username: string;
   email: string;
 }
+
+export interface UserUpdateRequest {
+  username?: string;
+  email?: string;
+  password?: string;
+}
+export interface UserUpdateResponse {
+  token: string;
+}

@@ -7,6 +7,6 @@
             <p>{{topic.description}}</p>
         </div>
     </mat-card-content>
-    <button mat-stroked-button class="subscribe-button" type="submit"
-        (click)="subscribe(topicId)">{{textButton}}</button>
+    <button mat-stroked-button class="subscribe-button" [class]="disable" type="submit" (click)="subscribeFn(topic.id)"
+        [disabled]="isDisabled">{{textButton}}</button>
 </mat-card>

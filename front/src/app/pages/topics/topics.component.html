@@ -1,7 +1,10 @@
 <button mat-stroked-button class="create-button" (click)="navigateToTopic()">Créer un
     thèmes</button>
 <section class=" topics">
-    @for(topic of topics; track topic ){
-    <app-topic-card [topic]="topic" [textButton]="textButton" class="card" [topicId]="topic.id"></app-topic-card>
+    @for(topic of topics; track topic) {
+    <app-topic-card [topic]="topic" [textButton]=" 'Subscribe'" class="card" [topicId]="topic.id"
+        [subscribeFn]="subscribse" class="card"
+        [disable]="isSubscribe(topic.id) ? 'unsubscribe-button-color' : 'subscribe-button-color'">
+    </app-topic-card>
     }
 </section>
