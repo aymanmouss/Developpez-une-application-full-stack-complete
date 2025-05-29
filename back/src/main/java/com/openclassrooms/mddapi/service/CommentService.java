@@ -15,17 +15,29 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.stream.Collectors;
 
+/**
+ * Service responsible for handling business logic related to comments.
+ * Supports creating comments and retrieving comments for a specific post.
+ */
 @Service
 @RequiredArgsConstructor
 public class CommentService {
+
     private final CommentRepository commentRepository;
     private final PostRepository postRepository;
     private final CommentMapper commentMapper;
     private final AuthService authService;
 
+    /**
+     * Creates a new comment associated with a specific post and user.
+     *
+     * @param dto the comment data including post ID and content
+     * @return the created comment as a response DTO
+     * @throws ServiceException if the post is not found or saving fails
+     */
     public CommentResponseDTO createComment(CommentRequestDTO dto){
-        try{
-            Post post  = postRepository.findById(dto.getPostId())
+        try {
+            Post post = postRepository.findById(dto.getPostId())
                     .orElseThrow(() -> new ServiceException("Post not found"));
 
             User user = authService.getCurrentUser();
@@ -36,21 +48,26 @@ public class CommentService {
 
             return commentMapper.toDTO(commentEntity);
 
-        }catch (Exception e){
+        } catch (Exception e) {
             throw new ServiceException("Error creating comment", e);
         }
     }
 
+    /**
+     * Retrieves all comments associated with a specific post.
+     *
+     * @param postId the ID of the post
+     * @return a list of comment response DTOs
+     * @throws ServiceException if fetching the comments fails
+     */
     public List<CommentResponseDTO> getAllComments(Long postId){
-        try{
+        try {
             List<Comment> comments = commentRepository.findAllByPostId(postId);
             return comments.stream()
                     .map(commentMapper::toDTO)
                     .collect(Collectors.toList());
-        }catch (Exception e){
+        } catch (Exception e) {
             throw new ServiceException("Error getting comments", e);
         }
-
     }
-
 }
