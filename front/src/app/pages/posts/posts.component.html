@@ -2,9 +2,9 @@
     <section class="posts-header">
         <button mat-stroked-button class="create-button" type="submit" (click)="navigateToPostCreation()">Créer un
             article</button>
-        <div class="posts-header-sort">
+        <div class="posts-header-sort" (click)="toggleSortOrder()">
             <p class="sort-text">Trier par</p>
-            <mat-icon routerLinkActive="active" class="userIcon">south</mat-icon>
+            <mat-icon routerLinkActive="active" class="userIcon">{{toggleIcon()}}</mat-icon>
         </div>
     </section>
     <div class="cards">

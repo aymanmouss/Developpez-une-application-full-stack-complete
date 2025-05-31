@@ -23,7 +23,8 @@ import { PostService } from "../../core/services/post.service";
 })
 export class PostsComponent implements OnInit {
   columns: number = 2;
-  posts$!: Observable<Post[]>;
+  ascending = true;
+  // posts$!: Observable<Post[]>;
 
   constructor(
     private router: Router,
@@ -42,5 +43,16 @@ export class PostsComponent implements OnInit {
   }
   trackById(index: number, post: Post): number | undefined {
     return post?.id;
+  }
+  toggleSortOrder() {
+    this.postService.posts().sort((a, b) => {
+      return this.ascending
+        ? a.title.localeCompare(b.title)
+        : b.title.localeCompare(a.title);
+    });
+    this.ascending = !this.ascending;
+  }
+  toggleIcon() {
+    return this.ascending ? "south" : "north";
   }
 }
