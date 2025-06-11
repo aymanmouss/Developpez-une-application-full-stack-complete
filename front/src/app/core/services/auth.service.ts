@@ -73,8 +73,14 @@ export class AuthService {
   isTokenExpired(token: string): boolean {
     try {
       const payload = JSON.parse(atob(token.split(".")[1]));
-      return payload.exp < Date.now() / 1000;
+      const expired = payload.exp < Date.now() / 1000;
+
+      if (expired) {
+        localStorage.removeItem("userToken");
+      }
+      return expired;
     } catch (error) {
+      localStorage.removeItem("userToken");
       return true;
     }
   }

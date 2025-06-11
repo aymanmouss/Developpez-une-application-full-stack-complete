@@ -24,7 +24,6 @@ import { PostService } from "../../core/services/post.service";
 export class PostsComponent implements OnInit {
   columns: number = 2;
   ascending = true;
-  // posts$!: Observable<Post[]>;
 
   constructor(
     private router: Router,

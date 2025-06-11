@@ -1,22 +1,20 @@
-import { Location } from '@angular/common';
-import { ChangeDetectionStrategy, Component, OnInit } from '@angular/core';
+import { Location } from "@angular/common";
+import { ChangeDetectionStrategy, Component, OnInit } from "@angular/core";
 import {
   FormBuilder,
   FormGroup,
   ReactiveFormsModule,
   Validators,
-} from '@angular/forms';
-import { MatFormFieldModule } from '@angular/material/form-field';
-import { MatIconModule } from '@angular/material/icon';
-import { MatInputModule } from '@angular/material/input';
-import { MatSelectModule } from '@angular/material/select';
-import { ActivatedRoute, Router } from '@angular/router';
-import { TopicsService } from '../../core/services/topics.service';
-import { map, Observable } from 'rxjs';
-import { topicResponse } from '../../models/topic';
+} from "@angular/forms";
+import { MatFormFieldModule } from "@angular/material/form-field";
+import { MatIconModule } from "@angular/material/icon";
+import { MatInputModule } from "@angular/material/input";
+import { MatSelectModule } from "@angular/material/select";
+import { Router } from "@angular/router";
+import { TopicsService } from "../../core/services/topics.service";
 
 @Component({
-  selector: 'app-topic-post',
+  selector: "app-topic-post",
   imports: [
     MatFormFieldModule,
     MatInputModule,
@@ -25,8 +23,8 @@ import { topicResponse } from '../../models/topic';
     MatIconModule,
   ],
   changeDetection: ChangeDetectionStrategy.OnPush,
-  templateUrl: './create-topic.component.html',
-  styleUrl: './create-topic.component.scss',
+  templateUrl: "./create-topic.component.html",
+  styleUrl: "./create-topic.component.scss",
 })
 export class CreateTopicComponent {
   responseForm: FormGroup;
@@ -37,8 +35,8 @@ export class CreateTopicComponent {
     private topicsService: TopicsService
   ) {
     this.responseForm = this.fb.group({
-      title: ['', [Validators.required]],
-      description: ['', [Validators.required]],
+      title: ["", [Validators.required]],
+      description: ["", [Validators.required]],
     });
   }
 
@@ -49,10 +47,10 @@ export class CreateTopicComponent {
     if (this.responseForm.valid) {
       this.topicsService.postTopic(this.responseForm.value).subscribe({
         next: (response) => {
-          this.router.navigate(['/topics']);
+          this.router.navigate(["/topics"]);
         },
         error: (error) => {
-          console.error('Error creating topic:', error);
+          console.error("Error creating topic:", error);
         },
       });
       console.log(this.responseForm.value);

@@ -15,6 +15,7 @@ export class TopicsService {
   postTopic(topic: CreateTopicRequest) {
     return this.apiService.post<topicResponse>("topics", topic);
   }
+
   getTopicByUserId() {
     return this.apiService.get<topicResponse[]>("topics/TopicByUserId");
   }
